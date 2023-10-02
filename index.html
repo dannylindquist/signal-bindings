@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <h1>Bind Tools</h1>
+        <x-counter class="card">
+          <button data-ref="counter" type="button">count: 0</button>
+          <span data-ref="doubled"></span>
+          <button data-ref="reset" style="display: none" type="button">Reset</button>
+        </x-counter>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
